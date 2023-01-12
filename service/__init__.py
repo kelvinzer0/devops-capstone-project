@@ -9,14 +9,14 @@ from flask import Flask
 from service import config
 from service.common import log_handlers
 from talisman import Talisman
-talisman = Talisman(app)
-talisman.allow_origins = '*'
 from flask_cors import CORS
 
 
 # Create Flask application
 app = Flask(__name__)
 app.config.from_object(config)
+talisman = Talisman(app)
+talisman.allow_origins = '*'
 CORS(app)
 
 # Import the routes After the Flask app is created

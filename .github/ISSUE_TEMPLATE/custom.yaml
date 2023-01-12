@@ -26,8 +26,7 @@ body:
     id: what-happened
     attributes:
       label: Acceptance Criteria
-      value: "gherkin 
-    Given [some context]
+      value: "Given [some context]\n
     When [certain action is taken]
     Then [the outcome of action is observed]"
     validations:

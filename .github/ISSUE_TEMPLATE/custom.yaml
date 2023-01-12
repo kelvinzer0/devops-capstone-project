@@ -9,11 +9,17 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: role
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: As a
+      placeholder: role
+    validations:
+      required: false
+  - type: input
+    id: function
+    attributes:
+      label: I need
+      placeholder: function
     validations:
       required: false
   - type: textarea

@@ -1,7 +1,9 @@
 ---
-
----
-**As a** [role]  
+name: User story template
+about: This template is used to submit user stories.
+title: ''
+labels: ''
+assignees: '**As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
       
@@ -12,5 +14,8 @@
     gherkin 
     Given [some context]
     When [certain action is taken]
-    Then [the outcome of action is observed]
+    Then [the outcome of action is observed]'
+
+---
+
 

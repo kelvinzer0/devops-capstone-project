@@ -14,21 +14,26 @@ body:
       label: As a
       placeholder: role
     validations:
-      required: false
+      required: true
   - type: input
     id: function
     attributes:
       label: I need
       placeholder: function
     validations:
-      required: false
+      required: true
+  - type: input
+    id: benefit
+    attributes:
+      label: So that
+      placeholder: benefit
+    validations:
+      required: true
   - type: textarea
-    id: what-happened
+    id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      value: "Given [some context]\n
-    When [certain action is taken]
-    Then [the outcome of action is observed]"
+      value: "Given [some context]\nWhen [certain action is taken]\nThen [the outcome of action is observed]"
     validations:
       required: true
   - type: dropdown

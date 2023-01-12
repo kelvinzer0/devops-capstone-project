@@ -19,10 +19,11 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Tes"
+      label: Acceptance Criteria
+      value: "gherkin 
+    Given [some context]
+    When [certain action is taken]
+    Then [the outcome of action is observed]"
     validations:
       required: true
   - type: dropdown

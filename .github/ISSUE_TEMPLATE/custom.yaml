@@ -1,6 +1,5 @@
 name: User story template
 description: This template is used to submit user stories.
-title: ""
 labels: ["user-story"]
 assignees:
   - octocat

@@ -22,18 +22,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "**As a** [role]  
-**I need** [function]  
-**So that** [benefit]  
-      
-### Details and Assumptions
-    * [document what you know]      
-
-### Acceptance Criteria     
-    gherkin 
-    Given [some context]
-    When [certain action is taken]
-    Then [the outcome of action is observed]"
+      value: "Tes"
     validations:
       required: true
   - type: dropdown

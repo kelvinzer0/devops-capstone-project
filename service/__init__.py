@@ -9,6 +9,8 @@ from flask import Flask
 from service import config
 from service.common import log_handlers
 from talisman import Talisman
+talisman = Talisman(app)
+talisman.allow_origins = '*'
 from flask_cors import CORS
 
 
